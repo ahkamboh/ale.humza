@@ -53,10 +53,10 @@
     }
 
     .poetrycontainer {
-         background: rgba(255, 255, 255, 0.144);
-        backdrop-filter: blur(3px);
+        
+        
         border: 1px solid rgba(255, 255, 255, 0.25);
-        border-radius: 5px;
+        border-radius: 5px; 
         cursor: pointer;
         border-radius: 5px;
         background-attachment: fixed;
@@ -283,9 +283,6 @@
     ::selection {
         background: #1f5a48;
     }
-    audio{
-        display:none;
-    }
 </style>
 
 
@@ -348,15 +345,13 @@
                     </span></div>
             </div>
         </div>
-
-        <audio controls autoplay loop hidden >
-            <source src="oneheart-reidenshi-snowfall.mp3" type="audio/mp3">
+        <audio controls autoplay style="position: relative; left:-100%;" id="audioplayer" src="oneheart-reidenshi-snowfall.mp3" type="audio/mpeg" loop="loop"> </audio>
 
         </audio>
         <h6
             style="text-align: center; color: white ;font-family: 'Poppins', sans-serif; text-shadow: none ; letter-spacing: 2px; margin-top: 13%; font-size: 10%;">
             Design and Developed by Ali Hamza Kamboh</h6>
-
+        
 </body>
 
 </html>
